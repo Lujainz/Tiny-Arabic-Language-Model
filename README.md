@@ -164,8 +164,8 @@ tiny-arabic-llm/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tiny-arabic-llm
-cd tiny-arabic-llm
+git clone https://github.com/YOUR_USERNAME/tiny-arabic-lm
+cd tiny-arabic-lm
 python -m venv venv
 venv\Scripts\activate        # Windows
 # source venv/bin/activate   # Mac/Linux
@@ -175,9 +175,9 @@ pip install -r requirements.txt
 ### 2. Collect and prepare data
 
 ```bash
-python step1_data.py         # download 50k Arabic Wikipedia articles
-python step2_clean.py        # normalize Arabic text
-python step3_tokenizer.py    # train tokenizer + encode dataset
+python data.py         # download 50k Arabic Wikipedia articles
+python clean.py        # normalize Arabic text
+python tokenizer.py    # train tokenizer + encode dataset
 ```
 
 ### 3. Train the model
