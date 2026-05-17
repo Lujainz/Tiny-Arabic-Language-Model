@@ -1,4 +1,4 @@
-# 🧠 Tiny Arabic LLM — From Scratch
+# 🧠 Tiny Arabic LM — From Scratch
 
 > A small Arabic language model built entirely from scratch using PyTorch — no pre-trained weights, no Hugging Face models. Just math, code, and Arabic text.
 
