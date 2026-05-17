@@ -1,0 +1,18 @@
+# Generated data — too large for GitHub
+data/
+tokenizer/
+model/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
